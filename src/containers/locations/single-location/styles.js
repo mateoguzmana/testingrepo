@@ -1,0 +1,78 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    rowSeparator: {
+        borderLeftColor: '#42a1f4',
+        borderLeftWidth: 2,
+    },
+    firstColumn: {
+        width: '25%'
+    },
+    whenStyle: {
+        color: '#1b1d21',
+        marginLeft: 2,
+        fontSize: 20,
+        padding: 5
+    },
+    dayStyle: {
+        color: '#1b1d21',
+        marginLeft: 2,
+        fontSize: 15,
+        padding: 5
+    },
+    locationHeader: {
+        marginLeft: 12,
+        fontSize: 20,
+    },
+    locationTime: {
+        marginLeft: 12,
+        fontSize: 13,
+    },
+    locationNote: {
+        marginLeft: 12,
+        fontSize: 12,
+    },
+    locationCommentsCount: {
+        color: '#C1C1C1',
+        marginLeft: 12,
+        fontSize: 10,
+    },
+    item: {
+        flex: 1,
+        flexDirection: 'row',
+        paddingTop: 10
+    },
+    swipeableItem: {
+        width: '100%',
+        backgroundColor: '#ffffff',
+    }, addLocationContainer: {
+        flex: 1,
+    },
+    date: {
+        fontSize: 14,
+        fontWeight: 'bold',
+        marginBottom: 8,
+        color: '#a8a8a8'
+    },
+    itemColumn: {
+        flex: 1,
+        flexDirection: 'column',
+        alignItems: 'stretch',
+        justifyContent: 'center',
+    },
+    locationHeader: {
+        marginLeft: 12,
+        fontSize: 20,
+    },
+    wifiIcon: {
+        alignSelf: 'flex-end',
+        height: 22,
+        marginRight: 20,
+        width: 24
+    },
+    rate: {
+        alignSelf: 'center'
+    }
+});
+
+export default styles;
